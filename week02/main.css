@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap');
+
+*,
+*:before, 
+*:after  { 
+    margin: 10px;
+    padding: 10px;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+
+}
+h1{
+    display: grid;
+    color: antiquewhite;
+    text-align: center;
+    font-size: 40px
+    
+}
+body{
+    
+    font-family: 'Open sans';
+    background-color: rgb(45, 43, 43);
+}
+.resized{
+    display: grid;
+    width: 200px;
+    height: auto;
+    
+}
+.aboutme{
+    background-color: rgba(14, 125, 139, 0.801);
+    color: antiquewhite;
+    margin: 0px;
+    padding-bottom: 30px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    text-align: center;
+    font-size: 40px;
+    
+}
+.aboutmep{
+    background-color:  rgba(14, 125, 139, 0.801);
+    color: antiquewhite;
+    margin: 0px;
+    padding-bottom: 40px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    text-align: center;
+}
+.education{ 
+    background-color: rgba(14, 125, 139, 0.801);
+    color: antiquewhite;
+    margin: 0px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    text-align: center;
+}
+.educationP{
+    background-color: rgba(14, 125, 139, 0.801);
+    color: antiquewhite;
+    margin: 0px;
+    text-align: center;
+   
+}
+.educationPl{
+    background-color: rgba(14, 125, 139, 0.801);
+    color: antiquewhite;
+    margin: 0px;
+    text-align: center;
+   border-bottom-left-radius: 10px;
+   border-bottom-right-radius: 10px;
+}
+.Work{
+    color: antiquewhite;
+    background-color:rgba(14, 125, 139, 0.801);
+    margin: 0px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    text-align: center;
+}
+.workP{
+    color: antiquewhite;
+    background-color: rgba(14, 125, 139, 0.801);
+    margin: 0px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    text-align: center;
+
+}
+.workPl{
+    color: antiquewhite;
+    background-color: rgba(14, 125, 139, 0.801);
+    margin: 0px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    text-align: center;
+}
+.learning{
+    text-align: center;
+    color: antiquewhite;
+    margin-bottom: -23px;
+    padding: 0px;
+    background-color: rgb(129, 152, 10);
+    margin: -23px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+   
+    
+}
+.learningl{
+    color: antiquewhite;
+    background-color: rgb(129, 152, 10);
+    padding: 0px;
+    margin: -18px;
+    line-height: 40px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    ;
+}
+h3 {
+    color: antiquewhite;
+ background-color: rgb(129, 152, 10);
+ margin-bottom: -23px;
+ padding: 0px;
+ border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    text-align: center;
+}
+
+.referencel{
+
+    color: antiquewhite;
+    background-color: rgb(129, 152, 10);
+    padding: 0px;
+    margin: -18px;
+    line-height: 40px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+footer{
+    color: antiquewhite;
+    background-color: rgb(129, 152, 10);
+   text-align: center;
+   border-radius: 30px;
+}
+
+a{ 
+    color: blue;
+}
+a:hover{
+    text-decoration: none;
+}
+a:active{
+    color: black;
+}
