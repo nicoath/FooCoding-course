@@ -1,0 +1,1 @@
+console.log("I'm awesome"); // The mistake was on the quotes used.
